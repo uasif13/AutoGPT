@@ -23,7 +23,7 @@ def test_pr(input: list):
     newinput = input.copy()
     newinput[0] = 1
     deepinput = copy.deepcopy(input)
-    return newinput
+    return deepinput
 
 # class AgentInputBlock(Block):
 #     """
