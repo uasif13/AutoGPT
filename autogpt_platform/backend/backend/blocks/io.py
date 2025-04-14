@@ -21,8 +21,6 @@ def test_pr(input: list):
     deepinput = copy.deepcopy(input)
     return deepinput
 
-test_pr([1,[2,3]])
-
 # class AgentInputBlock(Block):
 #     """
 #     This block is used to provide input to the graph.
