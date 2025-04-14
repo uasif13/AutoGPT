@@ -19,7 +19,7 @@ def test_pr(input: list):
     pre: input == [1,[2,3]]
     post: __return__  == [1,[2,3]]
     '''
-    newinput = input
+    newinput = input.copy()
     newinput[1][1]=4
     return input
 
