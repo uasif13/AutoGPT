@@ -16,12 +16,12 @@ import copy
 
 def test_pr(input: list):
     '''
-    pre: input == [1,[2,3]]
-    post: __return__  == [1,[2,3]]
+    post: __return__  == input
     '''
-    newinput = input.copy()
-    newinput[1][1]=4
-    return input
+    deepinput = copy.deepcopy(input)
+    return deepinput
+
+test_pr([1,[2,3]])
 
 # class AgentInputBlock(Block):
 #     """
